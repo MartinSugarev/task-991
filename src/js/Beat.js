@@ -2,8 +2,8 @@ import EventEmitter from "eventemitter3";
 
 export class Beat extends EventEmitter {
   
-  events() {
-    return {
+  get events() {
+    return {      
       BIT: "bit",
     };
    }
